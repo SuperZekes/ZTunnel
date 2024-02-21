@@ -1,7 +1,7 @@
 from pyngrok import ngrok
 
 # Replace 'your_auth_token' with your actual ngrok auth token
-ngrok.set_auth_token('2Zz6DIJNCG8xnwxCG7nVU62IDw0_6LU9Yazwn1aJSPtoPr9PZ')
+ngrok.set_auth_token('token')
 
 def expose_local_port(port):
     # Expose the specified local TCP port as a public URL
