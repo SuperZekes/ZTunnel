@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "tcp://2.tcp.ngrok.io:18520"
+      }
+    ]
+  }
+  
