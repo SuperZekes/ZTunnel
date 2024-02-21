@@ -1,6 +1,6 @@
 from pyngrok import ngrok
 
-# Replace 'your_auth_token' with your actual ngrok auth token
+# Replace 'token' with your actual ngrok auth token
 ngrok.set_auth_token('token')
 
 def expose_local_port(port):
