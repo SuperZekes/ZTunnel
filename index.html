@@ -63,14 +63,27 @@
         }
 
 
-    #github-link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 16px;
-    position: absolute;
-    top: 30px;
-    right: 20px;
-    }
+        #github-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            background: #333;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        
+        #github-link:hover {
+            background-color: #e8491d;
+        }
+        
+        #github-link:after {
+            content: '\2197'; /* Unicode arrow */
+            display: inline-block;
+            margin-left: 5px;
+        }
 
 
 
